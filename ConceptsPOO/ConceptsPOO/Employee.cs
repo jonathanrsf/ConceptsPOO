@@ -9,12 +9,14 @@
         public Date HiringDate { get; set; }
         public bool IsActive { get; set; }
 
+        public int MyProperty { get; set; }
+
         public abstract decimal GetValueToPay();
 
         public override string ToString()
         {
             return $"{Id} - {FirstName} {LastName}, " +
-                $"Birth: {BirthDate}, " +
+                $"Birth: {BirthDate}, " + 
                 $"Hiring: {HiringDate}, " +
                 $"Is Active: {IsActive}";
         }
