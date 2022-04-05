@@ -7,9 +7,7 @@
         public string LastName { get; set; }
         public Date BirthDate { get; set; }
         public Date HiringDate { get; set; }
-        public bool IsActive { get; set; }
-
-        public int MyProperty { get; set; }
+        public bool IsActive { get; set; }        
 
         public abstract decimal GetValueToPay();
 
